@@ -1,11 +1,35 @@
 import { useState } from 'react';
 import ApiFetchPractice from './features/api-fetch';
+import ApiStatusPractice from './features/api-status';
+import ApiPaginationPractice from './features/api-pagination';
+import ApiCrudPractice from './features/api-crud';
+import RefFocusPractice from './features/ref-focus';
 
 const sessions = [
   {
     id: 'api-fetch',
     label: 'API 데이터 불러오기',
     component: ApiFetchPractice,
+  },
+  {
+    id: 'api-status',
+    label: '로딩·에러 처리',
+    component: ApiStatusPractice,
+  },
+  {
+    id: 'api-pagination',
+    label: '페이지네이션 연결',
+    component: ApiPaginationPractice,
+  },
+  {
+    id: 'api-crud',
+    label: 'CRUD 동작 연결',
+    component: ApiCrudPractice,
+  },
+  {
+    id: 'ref-focus',
+    label: 'useRef로 포커스',
+    component: RefFocusPractice,
   },
 ];
 

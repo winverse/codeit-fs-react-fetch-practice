@@ -143,6 +143,47 @@ button {
   line-height: 1.6;
 }
 
+.page-indicator {
+  color: #60697b;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0;
+}
+
+.button-row button,
+.exercise-card > button {
+  padding: 10px 14px;
+  border: 1px solid #6c52f4;
+  border-radius: 10px;
+  color: #4b32d0;
+  background: #f0edff;
+  cursor: pointer;
+}
+
+.button-row button:disabled {
+  border-color: #d7ddec;
+  color: #8a92a3;
+  background: #f4f5f8;
+  cursor: not-allowed;
+}
+
+.post-form {
+  display: grid;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.post-form input {
+  padding: 12px;
+  border: 1px solid #cdd4e2;
+  border-radius: 10px;
+  font: inherit;
+}
+
 @media (max-width: 720px) {
   .workspace {
     grid-template-columns: 1fr;

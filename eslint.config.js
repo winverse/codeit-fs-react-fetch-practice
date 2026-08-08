@@ -27,7 +27,12 @@ export default defineConfig([
     },
   },
   {
-    files: ['src/features/api-fetch/Exercise.jsx'],
+    files: [
+      'src/features/api-fetch/Exercise.jsx',
+      'src/features/api-status/Exercise.jsx',
+      'src/features/api-pagination/Exercise.jsx',
+      'src/features/api-crud/Exercise.jsx',
+    ],
     rules: {
       'no-unused-vars': 'off',
     },
