@@ -1,0 +1,150 @@
+:root {
+  font-family: Pretendard, system-ui, sans-serif;
+  color: #172036;
+  background: #f3f6fb;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}
+
+.app-shell {
+  width: min(1080px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 56px 0;
+}
+
+.app-header {
+  margin-bottom: 32px;
+}
+
+.app-header h1 {
+  margin: 8px 0;
+  font-size: clamp(30px, 5vw, 44px);
+}
+
+.app-header p {
+  margin: 0;
+  color: #5d667a;
+}
+
+.app-header .eyebrow {
+  color: #5b42e8;
+  font-weight: 700;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 24px;
+}
+
+.session-panel,
+.practice-panel {
+  border: 1px solid #dde3ef;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 16px 40px rgb(33 45 78 / 8%);
+}
+
+.session-panel {
+  padding: 20px;
+}
+
+.session-panel h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.session-button {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 14px;
+  border: 1px solid #d7ddec;
+  border-radius: 12px;
+  color: #3e475b;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.session-button.active {
+  border-color: #6c52f4;
+  color: #4b32d0;
+  background: #f0edff;
+  font-weight: 700;
+}
+
+.practice-panel {
+  min-height: 360px;
+  padding: 32px;
+}
+
+.practice-panel > [role='status'],
+.practice-panel > [role='alert'] {
+  margin: 0;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.practice-panel > [role='status'] {
+  color: #5945c5;
+  background: #f0edff;
+}
+
+.practice-panel > [role='alert'] {
+  color: #a42a2a;
+  background: #fff0f0;
+}
+
+.exercise-card h2 {
+  margin: 6px 0 20px;
+}
+
+.exercise-label {
+  margin: 0;
+  color: #6c52f4;
+  font-weight: 700;
+}
+
+.post-list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post-list li {
+  padding: 18px;
+  border: 1px solid #e1e5ef;
+  border-radius: 14px;
+  background: #fafbfe;
+}
+
+.post-list strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.post-list p {
+  margin: 0;
+  color: #60697b;
+  line-height: 1.6;
+}
+
+@media (max-width: 720px) {
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+}
