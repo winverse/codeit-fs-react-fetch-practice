@@ -17,6 +17,10 @@ export default function ApiCrudPractice() {
         <li>수정된 게시물로 목록의 첫 항목을 교체합니다.</li>
         <li>삭제된 게시물을 목록에서도 제거합니다.</li>
       </ol>
+      <p className="answer-path">
+        <strong>정답 파일</strong>
+        <code>src/features/api-crud/answers/Exercise.jsx</code>
+      </p>
       <Exercise />
     </section>
   );

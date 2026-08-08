@@ -164,6 +164,19 @@ button {
   color: #4338ca;
 }
 
+.answer-path {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  margin: 0 0 24px;
+  color: #5f6878;
+}
+
+.answer-path code {
+  overflow-wrap: anywhere;
+  color: #4338ca;
+}
+
 .task-list {
   margin: 0 0 24px;
   padding-left: 22px;

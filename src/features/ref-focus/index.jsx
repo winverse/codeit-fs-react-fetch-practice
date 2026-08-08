@@ -19,6 +19,10 @@ export default function RefFocusPractice() {
           <code>focus()</code>로 입력창에 포커스를 이동합니다.
         </li>
       </ol>
+      <p className="answer-path">
+        <strong>정답 파일</strong>
+        <code>src/features/ref-focus/answers/Exercise.jsx</code>
+      </p>
       <Exercise />
     </section>
   );

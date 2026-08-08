@@ -21,6 +21,10 @@ export default function ApiFetchPractice() {
         </li>
         <li>응답의 게시물 배열을 state에 저장합니다.</li>
       </ol>
+      <p className="answer-path">
+        <strong>정답 파일</strong>
+        <code>src/features/api-fetch/answers/Exercise.jsx</code>
+      </p>
       <Exercise />
     </section>
   );
