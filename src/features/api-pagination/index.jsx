@@ -17,10 +17,6 @@ export default function ApiPaginationPractice() {
         <li>게시물 배열과 전체 게시물 개수를 각각 state에 저장합니다.</li>
         <li>페이지가 바뀔 때마다 요청을 다시 실행합니다.</li>
       </ol>
-      <p className="answer-path">
-        <strong>정답 파일</strong>
-        <code>src/features/api-pagination/answers/Exercise.jsx</code>
-      </p>
       <Exercise />
     </section>
   );

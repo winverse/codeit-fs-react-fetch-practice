@@ -17,10 +17,6 @@ export default function ApiStatusPractice() {
         <li>요청 실패 시 에러 메시지를 state에 저장합니다.</li>
         <li>요청이 끝나면 로딩 상태를 종료합니다.</li>
       </ol>
-      <p className="answer-path">
-        <strong>정답 파일</strong>
-        <code>src/features/api-status/answers/Exercise.jsx</code>
-      </p>
       <Exercise />
     </section>
   );

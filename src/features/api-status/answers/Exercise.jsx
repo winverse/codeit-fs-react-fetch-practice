@@ -9,7 +9,7 @@ export default function Exercise() {
   useEffect(() => {
     const loadPosts = async () => {
       try {
-        const { data } = await fetchPosts(1, 5);
+        const { data } = await fetchPosts();
         setPosts(data);
       } catch {
         setError('게시물을 불러오는 데 실패했습니다.');

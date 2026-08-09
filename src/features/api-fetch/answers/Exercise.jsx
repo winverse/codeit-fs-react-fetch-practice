@@ -6,7 +6,7 @@ export default function Exercise() {
 
   useEffect(() => {
     const loadPosts = async () => {
-      const { data } = await fetchPosts(1, 5);
+      const { data } = await fetchPosts();
       setPosts(data);
     };
 
