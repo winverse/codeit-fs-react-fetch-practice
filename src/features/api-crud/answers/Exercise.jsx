@@ -21,9 +21,8 @@ export default function Exercise() {
   const handleUpdate = async () => {
     const target = posts[0];
     const updatedPost = await updatePost(target.id, {
-      ...target,
       title: `${target.title} (수정됨)`,
-      userId: 1,
+      body: target.body,
     });
     setPosts((prev) =>
       prev.map((post) => (post.id === target.id ? updatedPost : post)),
