@@ -4,10 +4,7 @@
 
 ## 실행
 
-Node.js 26을 사용합니다.
-
 ```bash
-nvm use
 npm install
 npm run dev
 ```
