@@ -20,3 +20,4 @@ npm run dev
 | useRef로 포커스     | `src/features/ref-focus/Exercise.jsx`      |
 
 각 실습은 독립적이므로 앞 실습의 정답 코드가 필요하지 않습니다.
+정답은 각 실습 폴더의 `answers/Exercise.jsx`에서 확인할 수 있습니다.

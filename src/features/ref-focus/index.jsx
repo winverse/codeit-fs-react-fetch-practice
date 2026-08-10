@@ -13,10 +13,9 @@ export default function RefFocusPractice() {
         <code>src/features/ref-focus/Exercise.jsx</code>
       </p>
       <ol className="task-list">
-        <li>제목 입력창에 ref를 연결합니다.</li>
-        <li>폼이 열린 뒤 입력창의 DOM 요소를 확인합니다.</li>
+        <li>폼이 열렸는지 확인합니다.</li>
         <li>
-          <code>focus()</code>로 입력창에 포커스를 이동합니다.
+          <code>titleInputRef.current.focus()</code>를 호출합니다.
         </li>
       </ol>
       <Exercise />

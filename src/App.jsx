@@ -46,7 +46,9 @@ function App() {
         <p className="eyebrow">18. React로 데이터 다루기</p>
         <h1>API 데이터 연동 실습</h1>
         <p>
-          버튼을 선택하고 지정된 <code>Exercise.jsx</code>를 수정합니다.
+          버튼을 선택하고 지정된 <code>Exercise.jsx</code>를 수정합니다. 정답은
+          각 실습 폴더의 <code>answers/Exercise.jsx</code>에서 확인할 수
+          있습니다.
         </p>
       </header>
 
