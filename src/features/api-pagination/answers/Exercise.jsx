@@ -2,11 +2,13 @@ import { useEffect, useState } from 'react';
 import { fetchPosts } from '../../../api/posts';
 
 const LIMIT = 5;
+const INITIAL_PAGE = 1;
+const INITIAL_TOTAL_COUNT = 0;
 
 export default function Exercise() {
   const [posts, setPosts] = useState([]);
-  const [page, setPage] = useState(1);
-  const [totalCount, setTotalCount] = useState(0);
+  const [page, setPage] = useState(INITIAL_PAGE);
+  const [totalCount, setTotalCount] = useState(INITIAL_TOTAL_COUNT);
 
   useEffect(() => {
     const loadPosts = async () => {
